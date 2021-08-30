@@ -34,6 +34,8 @@ def main():
     
     # 注文
     order.add_item_order("001")
+    order.add_item_order("002")
+    order.add_item_order("003")
     
     # オーダー表示
     order.view_item_list()
