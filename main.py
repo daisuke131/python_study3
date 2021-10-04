@@ -5,9 +5,6 @@ class Item:
         self.item_name = item_name
         self.price = price
 
-    def get_price(self):
-        return self.price
-
 
 # オーダークラス
 class Order:
